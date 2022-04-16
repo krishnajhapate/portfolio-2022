@@ -9,7 +9,7 @@ const Work = () => {
         <div className="min-h-screen px-3 overflow-hidden mt-64">
 
             <Head>
-                <title>Work - Mukul Rajpoot</title>
+                <title>Work - Krishna Jhapate</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
