@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                     <div className='w-full p-10 lg:p-0 lg:w-1/3 flex justify-center items-center'>
                         <div className='border-4 border-info p-4 rounded-full flex justify-center items-center'>
-                            <Image src="/image.png" height={250} width={250} alt="" className='rounded-full' />
+                            <Image src="/krishna-profile.jpeg" height={250} width={250} alt="" className='rounded-full' />
                         </div>
                     </div>
                 </main>
