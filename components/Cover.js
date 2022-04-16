@@ -50,7 +50,7 @@ const Cover = ({ data, handleClose }) => {
                         </p>
                     </div>
                 </div>
-                <Image src={image} alt="" height={200} width={330} className="h-auto object-cover w-full rounded-2xl" alt={name} />
+                <Image src={image} height={200} width={330} className="h-auto object-cover w-full rounded-2xl" alt={name} />
                 <div className="flex justify-between items-center my-6 mx-4">
                     <a href={github} target='_blank' className="font-semibold text-2xl">GitHub 🤜</a>
                     <a href={link} target="_blank" className="font-semibold text-2xl">Visit 🤜</a>
