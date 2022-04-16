@@ -15,6 +15,16 @@ const SKILL_DATA = [
         image: '/icons/react.svg'
     },
     {
+        id: 17,
+        name: 'Python',
+        image: '/icons/python.svg'
+    },
+    {
+        id: 14,
+        name: 'Django',
+        image: '/icons/django.svg'
+    },
+    {
         id: 5,
         name: 'Redux',
         image: '/icons/redux.svg'
@@ -23,11 +33,6 @@ const SKILL_DATA = [
         id: 6,
         name: 'NodeJS',
         image: '/icons/nodejs.svg'
-    },
-    {
-        id: 7,
-        name: 'Express',
-        image: '/icons/expressjs.svg'
     },
     {
         id: 8,
@@ -64,11 +69,7 @@ const SKILL_DATA = [
         name: 'Vercel',
         image: '/icons/vercel.svg'
     },
-    {
-        id: 15,
-        name: 'Prisma',
-        image: '/icons/prisma.svg'
-    },
+
     {
         id: 16,
         name: 'AWS',
