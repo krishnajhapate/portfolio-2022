@@ -54,7 +54,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="fixed top-0 z-50 h-32 w-full flex items-center justify-around transition ease-in-out backdrop-blur-md">
-                <div className='w-10/12' >
+                <div className='w-10/12 flex justify-between' >
                     <Link href="/">
                         <Image src="/logo.svg" height={50} width={100} alt="" />
                     </Link>
