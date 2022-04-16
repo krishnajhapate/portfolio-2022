@@ -69,17 +69,17 @@ const Humburger = ({ state, setState }) => {
                     <div className="w-full h-1/2 flex flex-col justify-center items-center">
                         <h3 className="text-5xl lg:text-7xl text-secondary-100">Social Links</h3>
                         <div className="flex">
-                            <a href="https://www.linkedin.com/in/mukul-rajpoot-262610/" target="_blan">
+                            <a href="https://www.linkedin.com/in/krishnajhapate/" target="_blan">
                                 <h1 className="text-secondary-100 text-6xl mx-4 hover:text-success">
                                     <LinkedinOutlined />
                                 </h1>
                             </a>
-                            <a href="https://github.com/mukulrajpoot262610" target="_blan">
+                            <a href="https://github.com/krishnajhapate" target="_blank">
                                 <h1 className="text-secondary-100 text-6xl mx-4  hover:text-success">
                                     <GithubOutlined />
                                 </h1>
                             </a>
-                            <a href={"mailto: mukulrajpoot262610@gmail.com"}>
+                            <a href={"mailto: jhapatekrishna@gmail.com"}>
                                 <h1 className="text-secondary-100 text-6xl mx-4  hover:text-success">
                                     <MailOutlined />
                                 </h1>
