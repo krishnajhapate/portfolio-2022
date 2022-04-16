@@ -54,12 +54,14 @@ const Navbar = () => {
     return (
         <>
             <nav className="fixed top-0 z-50 h-32 w-full flex items-center justify-around transition ease-in-out backdrop-blur-md">
-                <Link href="/">
-                    <Image src="/logo.svg" height={50} width={100} alt="" />
-                </Link>
-                <button disabled={disabled} onClick={handleMenu} className="text-secondary-100 text-3xl rounded-lg border-2 px-8 py-2 my-4 border-secondary hover:border-info hover:text-info" >
-                    {state.menuName}
-                </button>
+                <div className='w-10/12' >
+                    <Link href="/">
+                        <Image src="/logo.svg" height={50} width={100} alt="" />
+                    </Link>
+                    <button disabled={disabled} onClick={handleMenu} className="text-secondary-100 text-3xl rounded-lg border-2 px-8 py-2 my-4 border-secondary hover:border-info hover:text-info" >
+                        {state.menuName}
+                    </button>
+                </div>
             </nav>
             <Humburger state={state} setState={setState} />
         </>
